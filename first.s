@@ -5,11 +5,11 @@
 	 IMPORT printMsg4p
      ENTRY 
 __NN  function
-	    MOV		R5, R0	;INPUT1(x1)
-		MOV		R6, R1 ;INPUT2(x2)
-		MOV		R7, R2	;INPUT3(x3)
-		MOV     R8, R3  ;Input to choose the logic to evaluate 
-        MOV     R4, #1  ;Bias (B)	
+	    MOV		R5, R0	;Move INPUT1(x1) from test case to R5
+		MOV		R6, R1 ;Move INPUT1(x2) from test case to R6
+		MOV		R7, R2	;Move INPUT1(x3) from test case to R7
+		MOV     R8, R3  ;Move Input to choose the logic to evaluate from test case to R8
+        MOV     R4, #1  ;Bias (B) input fixed as 1	
 		
 		
 		CMP		R8,#1
