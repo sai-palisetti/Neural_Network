@@ -24,3 +24,7 @@ So to implement the feed forward function, We use using ST Microelectronics STM3
 
 Step-2:
 By using the above sigmoid function,the basic gates are implemented by giving appropriate weights to the inputs.
+
+Note: 
+first.s contains Neural network implementation of all the logic gates.
+test.s contains all the combination of inputs that are required to test all the logic gates that are implemented by using the Neural Network.
